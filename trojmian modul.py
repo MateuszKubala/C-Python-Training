@@ -5,13 +5,13 @@ import math
 def pierwiastki(a, b, c):
     
     if a==0:
-        print("dupa")
+        print("brak")
         exit()
     else:
         delta=b*b-4*a*c
         
     if delta < 0:
-        print("sa")
+        print("brak")
     elif delta == 0:
         x1=-b-(2*a)
         print(x1)
