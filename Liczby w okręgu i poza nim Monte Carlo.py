@@ -16,7 +16,7 @@ i=int(input("podaj liczbę punktów: "))
 for wiersze in range (1,bok+1):
     for kolumny in range(1,bok+1):
         wynik=wiersze*kolumny
-        #print(wynik,"\t",end="") "wyświetlanie pola kwadratu"
+        print(wynik,"\t",end="") #"wyświetlanie pola kwadratu"
     print()
 pi=math.pi
 print("pi= ", pi)
@@ -26,7 +26,7 @@ print("zakres: ", powyzej, " do ", ponizej)
 
 for w in range(0,i):
     a=random.randint(0,kwadrat)
-    #print("losowe liczby z zakresu: ",a,"\t", end="") "wyświetlanie liczb losowych"
+    #print("losowe liczby z zakresu: ",a,"\t", end="") #"wyświetlanie liczb losowych"
     print() 
     if a in range(ponizej, powyzej):
         d=1
