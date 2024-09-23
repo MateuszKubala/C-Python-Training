@@ -2,11 +2,11 @@
 #include<string.h>
 
 int main(void)
-
 {
-    char *i = ("Mateusz");
+    char *i = "Mateusz";
 
-    printf("%p\n", i);
-    printf("%c\n", i[0]);
+    printf("Adres pamięci: %p\n", i);
+    printf("Pierwszy znak: %c\n", i[0]);
 
+    return 0;
 }
